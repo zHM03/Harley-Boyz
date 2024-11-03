@@ -50,7 +50,7 @@ def clean_selected_directories(temp_var, user_temp_var, prefetch_var, status_lab
 
 # UI elemanlarını oluşturma fonksiyonu
 def create_ui_elements(parent):
-    # Önceki checkbox'ları temizle
+    # Önceki checkboxları temizle
     for widget in parent.winfo_children():
         widget.destroy()
 
