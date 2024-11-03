@@ -105,5 +105,5 @@ temp_var, user_temp_var, prefetch_var = clean.create_ui_elements(checkboxes_fram
 checkboxes_frame.pack_forget()
 
 # Tkinter uygulamasını başlat
-if __name__ == "__main__":  # Bu satırı ekledim
-    window.mainloop()  # Burada sadece ana pencereyi başlatıyoruz
+if __name__ == "__main__":
+    window.mainloop()
